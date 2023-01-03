@@ -52,6 +52,8 @@ header {
     padding: 10px 12px;
     background-color: #F5F5F5;
     height: 80vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .home-p {
@@ -125,6 +127,10 @@ header {
     background-color: #ec5242;
 }
 
+.hide-line {
+    display: none;
+}
+
 .details {
     display: flex;
     flex-direction: column;
@@ -166,6 +172,10 @@ header {
     font-family: 'Lato', sans-serif;
     font-size: 22px;
     font-weight: 500;
+}
+
+.whole-program {
+    display: none;
 }
 
 .featured-speakers {
@@ -403,4 +413,240 @@ header {
 .summit-img-bg p {
     font-family: 'Lato', sans-serif;
     font-size: 18px;
+}
+
+@media screen and (min-width: 768px) {
+    header {
+        height: 100%;
+        background: none;
+    }
+
+    .top-nav {
+        display: flex;
+        background-color: #272a31;
+        padding: 12px 15px;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+    
+    .top-nav-list {
+        color: #d3d3d3;
+        font-family: 'Lato', sans-serif;
+        margin-right: 5rem;
+    }
+    
+    .navbar {
+        justify-content: space-between;
+        padding: 30px 15px;
+        height: 10px;
+        background-color: #fff;
+        align-items: center;
+    }
+    
+    .logo {
+        display: inline;
+    }
+    
+    .navbar-list {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        gap: 3rem;
+        font-family: 'Lato', sans-serif;
+        color: #272a31;
+        font-weight: 500;
+        align-items: center;
+    }
+
+    .campaign {
+        border: 5px solid #ec5242;
+        padding: 10px;
+    }
+    
+    .menu-icon {
+        display: none;
+    }
+    
+    .home-page {
+        padding: 5rem 10rem;
+        height: 62vh;
+    }
+    
+    .home-p {
+        font-size: 30px;
+    }
+    
+    .home-header {
+        font-size: 50px;
+        max-width: 580px;
+    }
+    
+    .home-info {
+        font-size: 18px;
+        margin-top: 20px;
+        max-width: 600px;
+    }
+    
+    .span-time {
+        margin-top: 20px;
+    }
+    
+    .home-location {
+        margin-top: 10px;
+    }
+    
+    .program {
+        padding: 5rem 10rem;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .details {
+        flex-direction: row;
+        gap: 15px;
+    }
+    
+    .program-details {
+        height: 200px;
+        width: 180px;
+        flex-direction: column;
+    }
+    
+    .program-details-h3 {
+        margin-left: 0;
+        margin-top: 12px;
+        text-align: center;
+    }
+    
+    .program-details-p {
+        max-width: 180px;
+        margin-left: 0;
+        margin-top: 10px;
+        text-align: center;
+    }
+    
+    .join-button {
+        display: none;
+    }
+
+    .whole-program {
+        display: inline;
+        align-self: center;
+        margin-top: 3rem;
+        color: #d3d3d3;
+        font-size: 15px;
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid #d3d3d3;
+    }
+    
+    .featured-speakers {
+        padding: 4rem 10rem;
+    }
+    
+    .all-speakers {
+        margin-top: 0;
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        row-gap: 15px;
+        column-gap: 15px;
+    }
+    
+    .speaker-details {
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        margin-top: 4rem;
+    }
+    
+    .speakers-button {
+        display: none;
+    }
+    
+    .partners {
+        padding: 3rem 10rem;
+    }
+    
+    .sponsors {
+        flex-direction: row;
+    }
+    
+    .home-footer {
+        padding: 1rem 15rem;
+        gap: 40px;
+    }
+    
+    .footer-rights {
+        flex-direction: row;
+        gap: 2px;
+    }
+    
+    .about-p {
+        display: none;
+    }
+    
+    .about-header {
+        font-size: 50px;
+        max-width: 600px;
+        align-self: center;
+    }
+
+    .hide-line {
+        display: inline;
+    }
+
+    .home-page article {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .about-info {
+        padding: 30px 30px;
+        max-width: 700px;
+        align-self: center;
+    }
+    
+    .about-main {
+        padding: 30px 15px;
+        border-bottom: 1px solid #d3d3d3;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-main-header br {
+        display: none;
+    }
+    
+    .summit-logo {
+        width: 500px;
+        align-self: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .past-summits {
+        padding: 4rem 10rem;
+        align-items: center;
+    }
+    
+    .summit-images {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+    }
+    
+    .summit-img-one {
+        width: 500px;
+    }
+    
+    .summit-img-two {
+        width: 500px;
+        margin-top: 0;
+    }
+    
+    .summit-img-bg {
+        width: 500px;
+    }
 }
