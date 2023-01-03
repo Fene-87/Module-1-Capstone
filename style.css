@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -46,6 +51,40 @@ header {
 .menu-icon {
     color: #272a31;
     font-size: 32px;
+}
+
+.menu-toggle {
+    background-color: #d3d3d3;
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: -100%;
+}
+
+.active {
+    margin-left: 0;
+}
+
+.remove-icon {
+    margin-top: 2rem;
+    font-size: 25px;
+    color: #272a31;
+}
+
+.menu-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 4rem;
+    color: #272a31;
+    font-size: 20px;
+    margin-top: 2rem;
 }
 
 .home-page {
@@ -419,6 +458,10 @@ header {
     header {
         height: 100%;
         background: none;
+    }
+
+    .menu-toggle {
+        display: none;
     }
 
     .top-nav {
