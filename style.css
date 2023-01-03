@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.top-nav {
+    display: none;
+}
+
+.top-nav-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 12px;
+    height: 110px;
+    background-color: rgb(245, 245, 245, 0.9);
+}
+
+.logo {
+    display: none;
+}
+
+.navbar-list {
+    display: none;
+}
+
+header {
+    height: 120px;
+    background-image: url(./img/atinous-zoom.png);
+    margin-bottom: 0;
+}
+
+.menu-icon {
+    color: #272a31;
+    font-size: 32px;
+}
+
+.home-page {
+    padding: 10px 12px;
+    background-color: #F5F5F5;
+    height: 80vh;
+}
+
+.home-p {
+    color: #ec5242;
+    font-size: 25px;
+    letter-spacing: 3%;
+    font-family: 'Cocogoose', sans-serif;
+}
+
+.home-header {
+    color: #ec5242;
+    font-size: 31px;
+    margin-top: 12px;
+    font-family: 'Cocogoose', sans-serif;
+}
+
+.home-info {
+    border: 4px solid white;
+    padding: 15px 10px;
+    color: #272a31;
+    font-size: 18px;
+    margin-top: 40px;
+    font-family: 'Lato', sans-serif;
+    max-width: 350px;
+}
+
+.span-time {
+    margin-top: 40px;
+}
+
+.home-page time {
+    font-size: 30px;
+    font-weight: 600;
+    color: #272a31;
+}
+
+.home-location {
+    color: #272a31;
+    font-size: 17px;
+    margin-top: 30px;
+    font-family: 'Lato', sans-serif;
+}
+
+.program {
+    background-color: #272a31;
+    padding: 15px 15px;
+    padding-bottom: 50px;
+}
+
+.program-header {
+    text-align: center;
+    color: #d3d3d3;
+    font-family: 'Lato', sans-serif;
+}
+
+.program-div {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+}
+
+.line-break {
+    border:1px solid #ec5242;
+    width: 50px;
+    align-self: center;
+    margin-top: 15px;
+    background-color: #ec5242;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    gap: 15px;
+}
+
+.program-details {
+    height: 100px;
+    background-color: rgb(245, 245, 245, 0.1);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 12px;
+}
+
+.program-details-h3 {
+    width: 150px;
+    color: #ec5242;
+    margin-left: 10px;
+    font-family: 'Lato', sans-serif;
+}
+
+.program-details-p {
+    width: 250px;
+    margin-left: 10px;
+    color: #d3d3d3;
+    font-family: 'Lato', sans-serif;
+}
+
+.join-button {
+    margin-top: 3rem;
+    align-self: center;
+    height: 70px;
+    width: 250px;
+    background-color: #ec5242;
+    border: none;
+    color: #d3d3d3;
+    font-family: 'Lato', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.featured-speakers {
+    padding: 20px 15px;
+    padding-bottom: 40px;
+}
+
+.speakers-header {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+    color: #272a31;
+}
+
+.all-speakers {
+    margin-top: 3rem;
+}
+
+.speaker-details {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-top: 4rem;
+}
+
+.speaker-image {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    background-image: url(./img/speaker-background.png);
+}
+
+.speaker-image-sizing {
+    width: 125px;
+    height: 125px;
+    margin-left: 20px;
+}
+
+.article-items {
+    max-width: 600px;  
+}
+
+.article-items h3 {
+    font-family: 'Lato', sans-serif;
+    color: #272a31;
+    font-size: 22px;
+}
+
+.article-items h4 {
+    color: #ec5242;
+    margin-top: 10px;
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+}
+
+.article-items p {
+    margin-top: 10px;
+    font-family: 'Lato', sans-serif;
+    color: #272a31;
+}
+
+.speakers-button {
+    width: 100%;
+    margin-top: 3rem;
+    padding: 12px 0;
+    background-color: transparent;
+    border: 1px solid #272a31;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #272a31;
+}
+
+.speakers-button i {
+    color: #ec5242;
+}
+
+.partners {
+    background-color: #272a31;
+    padding: 20px 15px;
+}
+
+.sponsors {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 2rem;
+}
+
+.sponsors-logo {
+    width: 200px;
+    height: 200px;
+}
+
+.home-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 1rem;
+    gap: 10px;
+}
+
+.art-logo {
+    width: 150px;
+    height: 130px;
+}
+
+.footer-rights {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+}
