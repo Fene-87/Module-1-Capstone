@@ -58,7 +58,7 @@ header {
     color: #ec5242;
     font-size: 25px;
     letter-spacing: 3%;
-    font-family: 'Cocogoose', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 .home-header {
@@ -66,6 +66,10 @@ header {
     font-size: 31px;
     margin-top: 12px;
     font-family: 'Cocogoose', sans-serif;
+    background: linear-gradient(90deg, rgba(255, 17, 17, 1) 0%, rgb(255, 111, 0) 30%, rgba(255, 180, 0, 1) 100%);
+    -webkit-text-fill-color: transparent;
+    background-clip: content-box;
+    -webkit-background-clip: text;
 }
 
 .home-info {
@@ -278,4 +282,125 @@ header {
     flex-direction: column;
     font-family: 'Lato', sans-serif;
     font-size: 14px;
+}
+
+.about-p {
+    color: #ec5242;
+    font-size: 25px;
+    letter-spacing: 3%;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+.about-header {
+    color: #ec5242;
+    font-size: 31px;
+    margin-top: 12px;
+    font-family: 'Cocogoose', sans-serif;
+    text-align: center;
+}
+
+.about-info {
+    border: 1px solid #d3d3d3;
+    background-color: #fff;
+    padding: 15px 10px;
+    color: #272a31;
+    font-size: 18px;
+    margin-top: 40px;
+    font-family: 'Lato', sans-serif;
+    max-width: 700px;
+    text-align: center;
+}
+
+.about-contact-us {
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    margin-top: 30px;
+    color: #272a31;
+    text-align: center;
+}
+
+.about-email {
+    margin-top: 10px;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: #272a31;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.about-main {
+    padding: 30px 15px;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+.about-main-header {
+    text-align: center;
+    color: #272a31;
+    font-family: 'Lato', sans-serif;
+}
+
+.about-main-p {
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    color: #272a31;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.summit-logo {
+    border: 1px solid #d3d3d3;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.summit-logo-image {
+    width: 200px;
+    height: 200px;
+}
+
+.past-summits {
+    padding: 30px 15px;
+}
+
+.summit-images {
+    margin-top: 50px;
+}
+
+.summit-img-one {
+    background-image: url(./img/art-gallery-summit.jpg);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.summit-img-two {
+    background-image: url(./img/Art-summit-two.jpg);
+    height: 300px;
+    background-size: cover;
+    margin-top: 30px;
+}
+
+.summit-img-bg {
+    background-color: rgb(232, 88, 66, 0.5);
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.summit-img-bg h3 {
+    font-family: 'Lato', sans-serif;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.summit-img-bg p {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
 }
