@@ -240,6 +240,10 @@ header {
     margin-top: 4rem;
 }
 
+.hide-speaker {
+    display: none;
+}
+
 .speaker-image {
     width: 150px;
     height: 150px;
@@ -323,7 +327,7 @@ header {
 
 .art-logo {
     width: 150px;
-    height: 130px;
+    height: 70px;
 }
 
 .footer-rights {
@@ -404,6 +408,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 2rem 0;
 }
 
 .summit-logo-image {
@@ -467,7 +472,7 @@ header {
     .top-nav {
         display: flex;
         background-color: #272a31;
-        padding: 12px 15px;
+        padding: 12px 10rem;
         justify-content: flex-end;
         align-items: flex-end;
     }
@@ -475,12 +480,11 @@ header {
     .top-nav-list {
         color: #d3d3d3;
         font-family: 'Lato', sans-serif;
-        margin-right: 5rem;
     }
     
     .navbar {
         justify-content: space-between;
-        padding: 30px 15px;
+        padding: 30px 10rem;
         height: 10px;
         background-color: #fff;
         align-items: center;
@@ -488,6 +492,11 @@ header {
     
     .logo {
         display: inline;
+    }
+
+    .nav-art-logo {
+        width: 150px;
+        height: 65px;
     }
     
     .navbar-list {
@@ -512,7 +521,7 @@ header {
     
     .home-page {
         padding: 5rem 10rem;
-        height: 62vh;
+        height: 67vh;
     }
     
     .home-p {
