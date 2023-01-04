@@ -49,9 +49,9 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-Click on the link to view the portfolio website.
+Click on the link to view the Art Summit website.
 
-- [Live Demo](https://fene-87.github.io/Portfolio/)
+- [Live Demo](https://fene-87.github.io/Module-1-Capstone/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
