@@ -24,6 +24,14 @@ body {
     gap: 2rem;
 }
 
+.top-nav-list li {
+    cursor: pointer;
+}
+
+.top-nav-list li:hover {
+    color: #ec5242;
+}
+
 .navbar {
     display: flex;
     flex-direction: row;
@@ -42,6 +50,14 @@ body {
     display: none;
 }
 
+.navbar-list li {
+    cursor: pointer;
+}
+
+.navbar-list li:hover {
+    color: #ec5242;
+}
+
 header {
     height: 120px;
     background-image: url(./img/atinous-zoom.png);
@@ -54,7 +70,9 @@ header {
 }
 
 .menu-toggle {
-    background-color: #d3d3d3;
+    background-image: url(./img/atinous-zoom.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     position: fixed;
     height: 100vh;
     width: 100%;
@@ -65,6 +83,16 @@ header {
     margin-left: -100%;
 }
 
+.menu-bg {
+    background-color: rgb(211, 211, 211, 0.7);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
 .active {
     margin-left: 0;
 }
@@ -73,6 +101,7 @@ header {
     margin-top: 2rem;
     font-size: 25px;
     color: #272a31;
+    cursor: pointer;
 }
 
 .menu-list {
@@ -85,6 +114,14 @@ header {
     color: #272a31;
     font-size: 20px;
     margin-top: 2rem;
+}
+
+.menu-list li {
+    cursor: pointer;
+}
+
+.menu-list li:hover {
+    color: #ec5242;
 }
 
 .home-page {
@@ -293,6 +330,14 @@ header {
     color: #272a31;
 }
 
+.speaker-line {
+    width: 30px;
+    border: 1px solid #d3d3d3;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: #d3d3d3;
+}
+
 .speakers-button i {
     color: #ec5242;
 }
@@ -492,6 +537,7 @@ header {
     
     .logo {
         display: inline;
+        cursor: pointer;
     }
 
     .nav-art-logo {
