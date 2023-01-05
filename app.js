@@ -176,6 +176,7 @@ const speakerButton = document.querySelector('.speakers-button');
 
 for (let i = 0; i < speakerDetails.length; i += 1) {
   speakerImage[i].src = speakerInfo[i].img;
+  speakerImage[i].alt = speakerInfo[i].img;
   speakerHeader[i].textContent = speakerInfo[i].name;
   speakerShortDesc[i].textContent = speakerInfo[i].shortDescription;
   speakerLongDesc[i].textContent = speakerInfo[i].longDescription;
