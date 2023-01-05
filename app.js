@@ -13,36 +13,48 @@ removeMenu.addEventListener('click', () => {
 
 const speakerInfo = [
   {
+    img: './img/220504_kturner01.jpg',
+    imgAlt: 'Image of Khari Turner',
     name: 'Khari Turner',
     shortDescription: 'An American Artist living and working in New York',
     longDescription: 'Khari is a well reknowned artist with two sold out shows at both Ross-sutton gallery and Frevo',
   },
 
   {
+    img: './img/BrookHsu.jpg',
+    imgAlt: 'Image of Brook Hsu',
     name: 'Brook Hsu',
     shortDescription: 'A Taiwanese-American artist with recent solo exhibitions',
     longDescription: 'Brook\'s abstract and figurative works are rife with symbolism serving as mysterious dreamlike mirrors of reality',
   },
 
   {
+    img: './img/Haley-Josephs.jpg',
+    imgAlt: 'Image of Haley-Josephs',
     name: 'Haley Josephs',
     shortDescription: 'A painter of mystical and vibrant imagery',
     longDescription: 'Joseph\'s paintings use bold colors and dream-like imagery to explore themes of feminity and mortality',
   },
 
   {
+    img: './img/sarahzapataportrait_copy.jpg',
+    imgAlt: 'Image of Sarah Zapata',
     name: 'Sarah Zapata',
     shortDescription: 'A Peruvian-American fabric artist',
     longDescription: 'Zapata creates technicolored handwoven sculptures that draw on Peruvian weaving techniques',
   },
 
   {
+    img: './img/Derek-Webpage.jpg',
+    imgAlt: 'Image of Derek Weisberg',
     name: 'Derek Weisberg',
     shortDescription: 'Participated in over 90 shows in the last 8 years',
     longDescription: 'Based in Oakland Carlifonia, Derek is a figurative artist whose sculptures are viscerally human',
   },
 
   {
+    img: './img/Englander004RGBTall.jpg',
+    imgAlt: 'Image of Elizabeth Englander',
     name: 'Elizabeth Englander',
     shortDescription: 'An American post war and contemporary artist',
     longDescription: 'Numerous key galleries and museums such as LOMEX have featured Elizabeth\'s work in the past',
@@ -58,8 +70,6 @@ featuredSpeakers.innerHTML = `
             <div class="speaker-details">
                 <div class="speaker-image">
                     <img 
-                        src="./img/220504_kturner01.jpg"
-                        alt="Khari Turner"
                         class="speaker-image-sizing"
                     />
                 </div>
@@ -76,8 +86,6 @@ featuredSpeakers.innerHTML = `
             <div class="speaker-details">
                 <div class="speaker-image">
                     <img 
-                        src="./img/BrookHsu.jpg"
-                        alt="Brook Hsu"
                         class="speaker-image-sizing"
                     />
                 </div>
@@ -94,8 +102,6 @@ featuredSpeakers.innerHTML = `
             <div class="speaker-details hide-speaker">
                 <div class="speaker-image">
                     <img 
-                        src="./img/Haley-Josephs.jpg"
-                        alt="Haley Josephs"
                         class="speaker-image-sizing"
                     />
                 </div>
@@ -112,8 +118,6 @@ featuredSpeakers.innerHTML = `
             <div class="speaker-details hide-speaker">
                 <div class="speaker-image">
                     <img 
-                        src="./img/sarahzapataportrait_copy.jpg"
-                        alt="Sarah Zapata"
                         class="speaker-image-sizing"
                     />
                 </div>
@@ -130,8 +134,6 @@ featuredSpeakers.innerHTML = `
             <div class="speaker-details hide-speaker">
                 <div class="speaker-image">
                     <img 
-                        src="./img/Derek-Webpage.jpg"
-                        alt="Derek Weisberg"
                         class="speaker-image-sizing"
                     />
                 </div>
@@ -148,8 +150,6 @@ featuredSpeakers.innerHTML = `
             <div class="speaker-details hide-speaker">
                 <div class="speaker-image">
                     <img 
-                        src="./img/Englander004RGBTall.jpg"
-                        alt="Elizabeth Englander"
                         class="speaker-image-sizing"
                     />
                 </div>
@@ -168,12 +168,14 @@ featuredSpeakers.innerHTML = `
 `;
 
 const speakerDetails = document.querySelectorAll('.speaker-details');
+const speakerImage = document.querySelectorAll('.speaker-image img');
 const speakerHeader = document.querySelectorAll('.article-items h3');
 const speakerShortDesc = document.querySelectorAll('.article-items h4');
 const speakerLongDesc = document.querySelectorAll('.article-items p');
 const speakerButton = document.querySelector('.speakers-button');
 
 for (let i = 0; i < speakerDetails.length; i += 1) {
+  speakerImage[i].src = speakerInfo[i].img;
   speakerHeader[i].textContent = speakerInfo[i].name;
   speakerShortDesc[i].textContent = speakerInfo[i].shortDescription;
   speakerLongDesc[i].textContent = speakerInfo[i].longDescription;

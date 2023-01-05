@@ -665,6 +665,10 @@ header {
     padding: 3rem 10rem;
   }
 
+  .partners-about {
+    display: none;
+  }
+
   .sponsors {
     flex-direction: row;
   }
@@ -672,6 +676,11 @@ header {
   .home-footer {
     padding: 1rem 15rem;
     gap: 40px;
+  }
+
+  .about-footer {
+    background-color: #272a31;
+    color: #d3d3d3;
   }
 
   .footer-rights {
