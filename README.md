@@ -49,9 +49,13 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-Click on the link to view the Art Summit Website.
+Click on the link to view the Art Summit website.
 
 - [Live Demo](https://fene-87.github.io/Module-1-Capstone/)
+
+Click on the link to view the description.
+
+- [Description](https://www.loom.com/share/2c47ad8dd5a24538b4d83011dafc0017)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
